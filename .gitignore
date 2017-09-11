@@ -1,0 +1,7 @@
+.idea
+.project
+*.iml
+out
+bin
+gen
+build
