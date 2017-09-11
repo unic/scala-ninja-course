@@ -4,5 +4,5 @@
 .. toctree::
    :maxdepth: 1
    
-   Exercise-01/index
+   Exercise-T01-T06/index
    Exercise-SnapchatPost/index

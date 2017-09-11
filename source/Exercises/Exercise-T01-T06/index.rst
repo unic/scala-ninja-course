@@ -1,5 +1,5 @@
-Exercise-01 für T-01 - T-06
-===========================
+Exercise: Für T-01 - T-06
+=========================
 
 #. Berechne: ``10 + 13 * 23 / 3`` und speichere den Wert
 #. Erstelle eine Variable und weise ihr einen Wert zu, anschliessend weise ihr noch einen anderen Wert zu
