@@ -17,6 +17,8 @@ selbstständig ausführen kannst.
    Tutorial-07/index
    Tutorial-08/index
    Tutorial-09/index
+   Tutorial-10/index
+   Tutorial-11/index
    Exercises/index
 
 

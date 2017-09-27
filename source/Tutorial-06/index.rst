@@ -1,93 +1,51 @@
-T-06 Blöcke, Funktionen und Methoden
-====================================
+T-06 Bedingungen - Entscheidungen treffen
+=========================================
 
-Blöcke
-------
+Der ``if..then..else..`` Befehl hilft dir im Programm Entscheidungen zu treffen.
 
-:: 
-
-   println({
-     val x = 1 + 1
-     x + 1
-   })
-
-Es wird jeweils der letzte Ausdruck zurückgegeben. Im obigen Beispiel also *3*.
-
-
-Funktionen
-----------
+Beispiel:
 
 ::
 
-   (x: Int) => x + 1 
-   
-Obige Funktion trägt keinen Namen, man nennt solche Funktionen auch *anonyme Funktionen*.
+  val n = 10
+  val t = 23
+  if (t > n) {
+    println("t ist grösser")
+  } else {
+    println("t ist kleiner")
+  }
+  
 
-Funktionen können aber auch Namen haben, z.B. *addOne*:
+Da ``t`` grösser ist als ``n`` wird auch ``t ist grösser`` im Bildschirm ausgegeben.
 
-:: 
+Wenn du jetzt z.B. ``t = 8`` schreibst, dann kriegst du die Meldung ``t ist kleiner``.
 
-   val addOne = (x: Int) => x + 1
-   println(addOne(1)) // 2
-   
-und mehrere Parameter aufnehmen:
-
-:: 
-
-   val add = (x: Int, y: Int) => x + y
-   println(add(1, 2)) // 3
-   
-oder auch keine Parameter:
+Man kann ein ``if`` Befehl auch kurz auf einer Zeile schreiben:
 
 ::
 
-   val getTheAnswer = () => 42
-   println(getTheAnswer()) // 42
+  if (10 > 1) println("yes grösser")
+  if (10 > 11) println("yes grösser") else println("nope kleiner")
+  
+Aber meistens wird die längere Schreibweise oben mit den geschweiften Klammern bevorzugt, weil diese meist leserlicher ist.
 
+Du kannst auch Bedingungen mit *Und* (mit doppeltem Ampersand-Zeichen) oder *Oder* (mit doppeltem Hochstrich) verknüpfen:
 
-Methoden
---------
-
-Methoden sind ähnlich wie Funktionen, mit einigen Unterschieden.
-
-z.B. eine Methode wird über den Befehl *def* definiert.
-
-:: 
-
-   def add(x: Int, y: Int): Int = x + y
-   println(add(1, 2)) // 3
-   
-Eine Methode enthält einen Namen, eine Paramter-Liste, Rückgabe-Typ und einen Code-Teil (Body):
-
-:: 
-
-   def getSquareString(input: Double): String = {
-     val square = input * input
-     square.toString
-   }
-
-Das Resultat einer Methode ist jeweils der letzte Ausdruck in der Methode. Es gibt aber auch den Befehl *return*, mit dem man ein Resultat zurückgeben kann, wird aber in Scala
-selten eingesetzt.
-   
-Auch Operatoren sind Methoden:
-
-z.B.:
+Beispiel mit Und-Verknüpfung:
 
 ::
 
-   1 + 1
+  if (t > n && t > 1000) {
+    // TODO code...
+  }
+  
+  
+Beispiel mit Oder-Verknüpfung:
 
-ist dasselbe wie:
+::
 
-:: 
+  if (t > n || t > 1000) {
+    // TODO code...
+  }
 
-   1.+(1)
-
-Es gibt dann auch noch die spezielle *main* Methode, die als Startpunkt eines Scala-Programmes gilt:
-
-:: 
-
-   object MeineApp {
-     def main(args: Array[String]): Unit =
-       println("Hello, Scala developer!")
-   } 
+  

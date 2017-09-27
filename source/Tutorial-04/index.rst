@@ -1,6 +1,9 @@
 T-04 Scala-Dateien erstellen und kompilieren
 ============================================
 
+Den Vorgang, wo man den geschriebenen *Code* in eine ausführbare Einheit *übersetzt*, nennt man **Kompilieren**.
+D.h. man kompiliert eine *Sourcecode-Datei* in eine ausführbare Einheit, damit man das Programm auch ausführen kann.
+
 Erstelle eine neue Datei mit Hilfe eines einfachen Text-Editors *HelloWorld.scala* und schreibe folgendes Programm:
 
 ::
