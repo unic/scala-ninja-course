@@ -18,7 +18,7 @@ Kompiliere *HelloWorld.scala* :
 
 ::
 
-   > scalac HelloWorld.scala
+   cmd> scalac HelloWorld.scala
    
 Im selben Verzeichnis wirst du dann eine neue Datei finden *HelloWorld.class*.
 
@@ -26,7 +26,7 @@ Du kannst anschliessend dein Programm laufen lassen mit folgendem Befehl:
 
 ::
 
-   > scala HelloWorld
+   cmd> scala HelloWorld
    
 Du kannst dein Programm noch vereinfachen in dem du das *Trait* *App* verwendest. 
 Du musst aktuell nicht wissen was ein *Trait* ist, wird später noch erklärt.
