@@ -3,6 +3,9 @@ T-06 Bedingungen - Entscheidungen treffen
 
 Der ``if..then..else..`` Befehl hilft dir im Programm Entscheidungen zu treffen.
 
+Beispiele für Vergleichs-Operatoren, die eingesetzt werden können:
+<, >, <=, >=, ==, !=
+
 Beispiel:
 
 ::
