@@ -6,7 +6,8 @@ Ausdrücke können Werten mit einem Namen zugewiesen werden, dabei braucht man d
 ::
 
   scala> val x = 1 + 1
-  x: Int = 2
+  scala> val meinName = "Hansueli"
+  scala> val meinAlter = 16
   
 Diese gespeicherten Werte sind *unveränderbar* und können nicht neue Werte aufnehmen.
 

@@ -14,7 +14,7 @@ Erstelle eine neue Datei mit Hilfe eines einfachen Text-Editors *HelloWorld.scal
      }
    }
 
-Kompiliere *HelloWorld.scala*:
+Kompiliere *HelloWorld.scala* :
 
 ::
 

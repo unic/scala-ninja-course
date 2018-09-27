@@ -5,7 +5,7 @@ T-01 Kommandozeile und Expressions
 
 ::
 
-  $ scala
+  cmd> scala
   scala>
   
 Es ist nun möglich einfache *Ausdrücke* oder *Expressions* direkt einzutippen und "Enter" zu drücken.
@@ -30,9 +30,12 @@ Hier einige Beispiele zum Selberausprobieren:
   
   scala> 2 * 2
   res4: Int = 4
+
+  scala> 10 % 2
+  res5: Int = 0
   
   scala> "Hello " + "World"
-  res5: String = Hello World
+  res6: String = Hello World
   
   
 Ausdrücke können z.B. mit dem *Befehl* ``println`` im Kommandozeilen-Fenster ausgegeben werden:
